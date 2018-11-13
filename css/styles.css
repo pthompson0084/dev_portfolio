@@ -1,0 +1,118 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	margin-bottom: .8em;
+	/* word-break: break-all; */
+	padding: 0;
+	border: 0;
+}
+
+/* header h1 {
+	margin: 0;
+} 
+
+header h3 {
+	text-transform: uppercase;
+} */
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	/* line-height: 1.6; */
+	background-color: #D6C25C;
+	min-width: 0;
+}
+
+header {
+	margin: auto;
+	padding: 1em;
+	text-align: center;	
+	/* background-color: #D6C25C; */
+}
+
+header img {
+	border-radius: 50%;
+	margin: .5em;
+}
+
+header ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+header ul a {
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	margin: auto;
+	/*margin: 3px;
+	margin: auto;
+	width: 15em; */
+	color: white; /* #E5E6D1; */
+	background: #3E28A1;
+	text-align: center;
+	/* text-transform: uppercase; */
+	opacity: .7;
+}
+
+header ul a:hover {
+	background: black;
+}
+
+.main-body {
+	background-color: #3E28A1;
+	background-image: url(../img/bkgd.jpg);
+	background-size: cover;
+	opacity: .7;
+	border-top: .4em #3E28A1 solid; 
+	border-bottom: .4em #3E28A1 solid;
+	padding: 2em;
+	color: white;
+}
+
+footer {
+	margin-top: 20px;
+	padding: 1em;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	header {
+		min-height: 12em;
+	}
+	
+	header img {
+		float: left;
+	}
+	
+	header h1,
+	header h3 {
+		text-align: left;
+	}
+	
+	nav {
+		float: right;
+	}
+	
+	#home,
+	#resume,
+	#portfolio,
+	#resources,
+	#contact {
+		float: left;
+		margin: 10px;
+	}
+	
+	header ul {
+		
+	}
+	
+	header ul a {
+		
+	}
+}
+
