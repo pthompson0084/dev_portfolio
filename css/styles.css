@@ -69,6 +69,11 @@ header ul a:hover {
 	border-bottom: .4em #3E28A1 solid;
 	padding: 2em;
 	color: white;
+	min-height: 35em;
+}
+
+.main-body p {
+	padding: 1em;
 }
 
 footer {
@@ -101,7 +106,7 @@ footer {
 	#home,
 	#resume,
 	#portfolio,
-	#resources,
+	#links,
 	#contact {
 		float: left;
 		margin: 10px;
