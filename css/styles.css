@@ -9,19 +9,19 @@
 	border: 0;
 }
 
-/* header h1 {
-	margin: 0;
-} 
-
-header h3 {
-	text-transform: uppercase;
-} */
-
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round', arial, sans-serif;
 	/* line-height: 1.6; */
 	background-color: #D6C25C;
 	min-width: 0;
+}
+
+header h1 {
+	font-family: "Copperplate Gothic Bold", "arial black", serif;
+} 
+
+header h3 {
+	font-family: "ar destine", courier, sans-serif;
 }
 
 header {
@@ -70,6 +70,7 @@ header ul a:hover {
 	padding: 2em;
 	color: white;
 	min-height: 35em;
+	position: relative;
 }
 
 .main-body p {
@@ -79,6 +80,12 @@ header ul a:hover {
 footer {
 	margin-top: 20px;
 	padding: 1em;
+}
+
+.quotes {
+	position: absolute;
+	bottom: 1em;
+	font-size: 2em;
 }
 
 /* ================================= 
@@ -120,4 +127,12 @@ footer {
 		
 	}
 }
+
+@media (max-width: 768px) {
+	.main-body {
+		padding: .5em;
+		min-height: 38em;
+	}
+
+
 
