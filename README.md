@@ -7,7 +7,7 @@ The home page uses javascript to rotate through a series of quotations. (Unfortu
 
 The links page also uses javascript. When you click a topic button, a list of related links appears.
 
-The contact page does not currently support actual form submission.
+The contact form is not set up to make an actual submission.
 
 FYI, my css is in styles.css (stylesheet.css is just for an imported font).
 

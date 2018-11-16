@@ -8,12 +8,12 @@
 	<title>Portfolio - Patrick Thompson</title>
 	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- My own CSS -->
+	<link rel="stylesheet" href="css/stylesheet.css"> <!-- For an imported font, i.e., not written by me -->
 </head>
 
 <body>
-	<header>
+	<header> <!-- Header contains logo, site identifier, navigation -->
 		<a id="top"> </a>
 		<a href="index.html">
 		<img id="logo" src="img/logo.jpg" width="150" height="150" alt="Logo">
@@ -30,15 +30,18 @@
 		</ul>
 		</nav>
 	</header>
-	<div class="main-body">
+	
+	<div class="main-body"> <!-- main-body div contains each page's unique subject matter, e.g., the rotating quotes here on the home page. -->
 		<div id="quotes">
-			<div style='position: absolute; bottom: 1em; font-size: 2em'><q>We're still in the first minutes of the first day of the Internet revolution.</q><p><cite>- Scott Cook</cite></p></div>
+			<div style='position: absolute; bottom: 1em; font-size: 2em'><q>We're still in the first minutes of the first day of the Internet revolution.</q><p><cite>- Scott Cook</cite></p></div> <!-- A quote is included here in the html in case the viewer's browser is not supporting javascript -->
 		</div>
 	</div>
+	
 	<footer>
 		<p><a href="#top">TOP</a></p>
 		<small>Copyright &copy; Patrick Thompson</small>
 	</footer>
+	
 	<script type="text/javascript" src="js/quotes.js"></script>
 
 </body>

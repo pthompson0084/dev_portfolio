@@ -78,7 +78,7 @@ footer {
 }
 
 /* ================================= 
-  Home
+  Home page styles
 ==================================== */
 
 .quotes {
@@ -88,7 +88,7 @@ footer {
 }
 
 /* ================================= 
-  Resume
+  Resume page styles
 ==================================== */
 
 #resumeBody {
@@ -113,7 +113,7 @@ footer {
 }
 
 /* ================================= 
-  Links
+  Links page styles
 ==================================== */
 	
 .main-body button {
@@ -149,7 +149,7 @@ footer {
 }
 
 /* ================================= 
-  Contact
+  Contact page styles
 ==================================== */
 input[type=text],
 textarea {
@@ -160,6 +160,7 @@ textarea {
 	box-sizing: border-box;
 	margin-bottom: 15px;
 	resize: vertical;
+	color: black;
 }
 
 input[type=submit] {
