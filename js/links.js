@@ -8,7 +8,7 @@ function js() {
 }
 
 function python() {
-	document.getElementById("linksBody").innerHTML = "<a href='https://www.python.org/'>Python.org</a></br><a href='https://www.pythonforbeginners.com/'>PythonForBeginners</a>";
+	document.getElementById("linksBody").innerHTML = "<a href='https://www.python.org/'>Python.org</a></br><a href='https://www.pythonforbeginners.com/'>Python For Beginners</a>";
 }
 	
 function java() {

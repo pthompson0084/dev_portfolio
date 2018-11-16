@@ -121,7 +121,7 @@ footer {
 	color: blue;
 	padding: 5px;
 	border: 2px black solid;
-	border-radius: 25%;
+	border-radius: 8px;
 	margin: .5em;
 }
 
@@ -147,6 +147,30 @@ footer {
 	color: #C7E4ED;
 	padding-bottom: 1em;
 }
+
+/* ================================= 
+  Contact
+==================================== */
+input[type=text],
+textarea {
+	width: 60%;
+	padding: 15px;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	padding: 5px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background: red;
+}
+	
+
 
 
 /* ================================= 
@@ -180,13 +204,6 @@ footer {
 		margin: 10px;
 	}
 	
-	header ul {
-		
-	}
-	
-	header ul a {
-		
-	}
 }
 
 @media (max-width: 768px) {
@@ -205,6 +222,11 @@ footer {
 	#linksBody {
 		margin-right: 5px;
 		max-width: 60%;
+	}
+	
+	input[type=text],
+	textarea {
+		width: 100%;
 	}
 }
 
