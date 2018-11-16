@@ -4,17 +4,23 @@ var quote = document.getElementById("quotes");
 function init() {
 	setTimeout(quote1, 0);
 
-	setTimeout(quote2, 8000);
+	setTimeout(quote2, 7000);
 	
-	setTimeout(quote3, 16000);
+	setTimeout(quote3, 14000);
 	
-	setTimeout(quote4, 24000);
+	setTimeout(quote4, 21000);
 
-	setTimeout(quote5, 32000);
+	setTimeout(quote5, 28000);
 	
-	setTimeout(quote6, 40000);
+	setTimeout(quote6, 35000);
 	
-	setTimeout(quote7, 48000);
+	setTimeout(quote7, 42000);
+	
+	setTimeout(quote8, 49000);
+	
+	setTimeout(quote9, 56000);
+	
+	setTimeout(quote10, 63000);
 }
 			
 function quote1() {
@@ -43,6 +49,18 @@ function quote6() {
 
 function quote7() {
 	quote.innerHTML = "<div style='position: absolute; bottom: 1em; font-size: 2em'><q>As the Internet has sped up the consumer experience, customer expectations are higher.</q><p><cite>- Greg Gianforte</cite></p></div>";
+}
+
+function quote8() {
+	quote.innerHTML = "<div style='position: absolute; bottom: 1em; font-size: 2em'><q>The Internet is becoming the town square for the global village of tomorrow.</q><p><cite>- Bill Gates</cite></p></div>";
+}
+
+function quote9() {
+	quote.innerHTML = "<div style='position: absolute; bottom: 1em; font-size: 2em'><q>The Internet is a toilet. It is.</q><p><cite>- Lady Gaga</cite></p></div>";
+}
+
+function quote10() {
+	quote.innerHTML = "<div style='position: absolute; bottom: 1em; font-size: 2em'><q>Connectivity is a human right.</q><p><cite>- Mark Zuckerberg</cite></p></div>";
 }
 
 document.addEventListener("DOMContentLoaded", init, false);

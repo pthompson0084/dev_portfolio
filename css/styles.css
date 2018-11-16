@@ -1,23 +1,23 @@
-/* Base Styles */
+/* ================================= 
+  Main styles
+==================================== */
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	margin-bottom: .8em;
-	/* word-break: break-all; */
 	padding: 0;
 	border: 0;
 }
 
 body {
 	font-family: 'Varela Round', arial, sans-serif;
-	/* line-height: 1.6; */
 	background-color: #D6C25C;
 	min-width: 0;
 }
 
 header h1 {
-	font-family: "Copperplate Gothic Bold", "arial black", serif;
+	font-family: 'introrustg-base2line', "Copperplate Gothic Bold", "arial black", serif;
 } 
 
 header h3 {
@@ -28,7 +28,6 @@ header {
 	margin: auto;
 	padding: 1em;
 	text-align: center;	
-	/* background-color: #D6C25C; */
 }
 
 header img {
@@ -46,13 +45,9 @@ header ul a {
 	display: block;
 	padding: 5px;
 	margin: auto;
-	/*margin: 3px;
-	margin: auto;
-	width: 15em; */
 	color: white; /* #E5E6D1; */
 	background: #3E28A1;
 	text-align: center;
-	/* text-transform: uppercase; */
 	opacity: .7;
 }
 
@@ -82,11 +77,77 @@ footer {
 	padding: 1em;
 }
 
+/* ================================= 
+  Home
+==================================== */
+
 .quotes {
 	position: absolute;
 	bottom: 1em;
 	font-size: 2em;
 }
+
+/* ================================= 
+  Resume
+==================================== */
+
+#resumeBody {
+	background-color: #F7F2DC;
+	color: black;
+	border: 4px black solid;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.heading {
+	margin-left: 1em;
+	font-family: "Copperplate Gothic Bold", "Times New Roman", serif;
+	text-align: center;
+	margin: .2em;
+	padding: 0;
+}
+
+.titles {
+	margin: .4em;
+	margin-left: 1em;
+}
+
+/* ================================= 
+  Links
+==================================== */
+	
+.main-body button {
+	background: gold;
+	color: blue;
+	padding: 5px;
+	border: 2px black solid;
+	border-radius: 25%;
+	margin: .5em;
+}
+
+.main-body button:hover {
+	background: black;
+	color: gold;
+}
+
+#linksBody {
+	float: right;
+	background-color: purple;
+	color: white;
+	border: 4px black solid;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-right: 5em;
+	min-width: 50%;
+	min-height: 15em;
+}
+
+#linksBody a {
+	margin: 1em;
+	color: #C7E4ED;
+	padding-bottom: 1em;
+}
+
 
 /* ================================= 
   Media Queries
@@ -133,6 +194,19 @@ footer {
 		padding: .5em;
 		min-height: 38em;
 	}
+	
+	#linksBody {
+		margin-right: 1em;
+		max-width: 60%;
+	}
+}
+
+@media (max-width: 475px) {
+	#linksBody {
+		margin-right: 5px;
+		max-width: 60%;
+	}
+}
 
 
 
